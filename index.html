@@ -3,29 +3,32 @@
     <head>
         <title>CALCULATOR</title>
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class="one">
         <input type="text" id="res" >
         <div class="main">
-            <button class="a num" onclick="solve(1)">1</button>
-            <button class="b num" onclick="solve(2)">2</button>
-            <button class="c num" onclick="solve(3)">3</button>
-            <button class="+ num" onclick="solve('+')">+</button>
-            <button class="d num" onclick="solve(4)">4</button>
-            <button class="e num" onclick="solve(5)">5</button>
-            <button class="f num" onclick="solve(6)">6</button>
-            <button class="- num" onclick="solve('-')">-</button>
-            <button class="h num" onclick="solve(7)">7</button>
-            <button class="i num" onclick="solve(8)">8</button>
-            <button class="j num" onclick="solve(9)">9</button>
-            <button class="* num" onclick="solve('*')">*</button>
-            <button class="l num" onclick="solve(0)">0</button>
-            <button class="m num" onclick="solve('00')">00</button>
-            <button class="= num" onclick="result()">=</button>
-            <button class="/ num" onclick="solve('/')">/</button>
-            <button class="n num" onclick="clr()">C</button>
-            <button class="o num" onclick="back()">←</button> </button>
+            <button class="num" onclick="clr()">C</button>
+            <button class="num" onclick="solve('%')">%</button>
+            <button class="num" onclick="back()">←</button> </button>
+            <button class="num" onclick="solve('/')">/</button>
+            <button class="num" onclick="solve(7)">7</button>
+            <button class="num" onclick="solve(8)">8</button>
+            <button class="num" onclick="solve(9)">9</button>
+            <button class="num" onclick="solve('*')">*</button>
+            <button class="num" onclick="solve(4)">4</button>
+            <button class="num" onclick="solve(5)">5</button>
+            <button class="num" onclick="solve(6)">6</button>
+            <button class="num" onclick="solve('-')">-</button>
+            <button class="num" onclick="solve(1)">1</button>
+            <button class="num" onclick="solve(2)">2</button>
+            <button class="num" onclick="solve(3)">3</button>
+            <button class="num" onclick="solve('+')">+</button>
+            <button class="num" onclick="solve('00')">00</button>
+            <button class="num" onclick="solve(0)">0</button>
+            <button class="num" onclick="solve('.')">.</button>
+            <button class="num equal" onclick="result()">=</button>   
         </div>
         </div>
         <script src="index.js"></script>
